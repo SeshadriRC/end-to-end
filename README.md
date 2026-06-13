@@ -14,7 +14,7 @@ Deploy to K8s
 
 used **t2 large** instance for this activity
 
-**Plugins Installed** - Pipeline: Stage View, 
+**Plugins Installed** - Pipeline: Stage View, Eclipse Temurin installer, Maven Integration
 
 ---
 
@@ -37,8 +37,22 @@ used **t2 large** instance for this activity
 
 - Click the `Build Now` and install the plugin `stage view` so that we can able to view it properly.
 
-
+---
 ## Install the Maven
 
 [follow this doc](https://github.com/gashok13193/DevOps-Docs/blob/main/MAVEN/maven.md#installing-maven-on-linuxubuntu)
+
+- Configure the Maven with jenkins, install maven and temurin plugins.
+
+- Jenkins --> tools --> Maven
+
+<img width="1317" height="497" alt="image" src="https://github.com/user-attachments/assets/dc0a285f-546d-4dee-9b0d-e7af19c4ad96" />
+
+- Jenkins --> tools --> JDK Installations
+
+<img width="1363" height="460" alt="image" src="https://github.com/user-attachments/assets/47d04e1c-99ce-48c2-9920-a807b1eb5379" />
+
+<img width="1526" height="425" alt="image" src="https://github.com/user-attachments/assets/e1d98d7e-6672-492a-afe4-c323ba012e62" />
+
+- Save it
 
