@@ -20,3 +20,5 @@ used **t2 large** instance for this activity
 ## Install jenkins 
 
 [follow this doc](https://github.com/gashok13193/DevOps-Docs/blob/main/Jenkins/Jenkins%20Setup.md)
+
+- Allow the port for jenkins `8080`
