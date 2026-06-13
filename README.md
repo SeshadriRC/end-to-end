@@ -76,4 +76,8 @@ used **t2 large** instance for this activity
 
 [follow-this-doc-go-to-package-step](https://github.com/gashok13193/DevOps-Docs/blob/main/SonarQube/SonarQube.md)
 
+```bash
+sudo apt install unzip
+```
+
 ---
