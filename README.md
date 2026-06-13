@@ -11,3 +11,5 @@ Docker build -> using docker
 Push image to dockerhub 
 
 Deploy to K8s
+
+used t2 large instance for this activity
