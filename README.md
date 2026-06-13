@@ -56,3 +56,24 @@ used **t2 large** instance for this activity
 
 - Save it
 
+---
+## Configure the tools in jenkins pipeline
+
+<img width="585" height="126" alt="image" src="https://github.com/user-attachments/assets/ac5b754f-fb6d-4371-bf8e-83448004e5bd" />
+
+---
+## Code compile using maven
+
+<img width="1487" height="665" alt="image" src="https://github.com/user-attachments/assets/66caa979-8b00-4660-8d63-dcefd01c001b" />
+
+- Now build and test it
+
+<img width="1566" height="576" alt="image" src="https://github.com/user-attachments/assets/500a4605-3d37-4acf-b09a-fa7fcf1f6be0" />
+
+---
+
+## Install the SonarQube
+
+[follow-this-doc-go-to-package-step](https://github.com/gashok13193/DevOps-Docs/blob/main/SonarQube/SonarQube.md)
+
+---
