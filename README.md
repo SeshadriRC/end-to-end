@@ -13,3 +13,10 @@ Push image to dockerhub
 Deploy to K8s
 
 used **t2 large** instance for this activity
+
+
+---
+
+## Install jenkins 
+
+[follow this doc]()
