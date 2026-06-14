@@ -22,6 +22,8 @@ used **t2 large** instance for this activity
 
 
 [follow this doc](https://github.com/gashok13193/DevOps-Docs/blob/main/Jenkins/Jenkins%20Setup.md)
+[follow this official doc](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu)
+
 
 - Below is the latest version
 
