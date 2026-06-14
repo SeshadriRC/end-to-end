@@ -55,6 +55,9 @@ used **t2 large** instance for this activity
 
 - Configure the Maven with jenkins, install maven and temurin plugins.
 
+  <img width="1917" height="668" alt="image" src="https://github.com/user-attachments/assets/854999f3-2925-4449-9cf6-56606b5f54e5" />
+
+
 - Jenkins --> tools --> Maven
 
 <img width="1317" height="497" alt="image" src="https://github.com/user-attachments/assets/dc0a285f-546d-4dee-9b0d-e7af19c4ad96" />
