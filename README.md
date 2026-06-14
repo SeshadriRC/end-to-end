@@ -36,9 +36,10 @@ used **t2 large** instance for this activity
 
 - Generate the pipeline script by going to `pipeline syntax`
 
-<img width="1276" height="643" alt="image" src="https://github.com/user-attachments/assets/a04a4db8-c4b7-414e-bb8f-26c773be463e" />
+<img width="1918" height="977" alt="image" src="https://github.com/user-attachments/assets/d51ebd0d-c12a-4dd4-a89e-b5f7937206d0" />
 
-<img width="1537" height="642" alt="image" src="https://github.com/user-attachments/assets/f38ad1ca-2f95-402e-b79b-1e54b8c2d37a" />
+<img width="1908" height="883" alt="image" src="https://github.com/user-attachments/assets/a9fadc75-1168-4a5b-80fb-d0081b28951d" />
+
 
 - Click the `Build Now` and install the plugin `stage view` so that we can able to view it properly.
 
