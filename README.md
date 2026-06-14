@@ -117,7 +117,7 @@ unzip sonarqube-10.7.0.96327.zip
 ### another method
 
 ```bash
-docker run -d --name sonarqube -p 9000:9000 sonarqube:lts-community
+docker run -d --name sonarqube -p 3456:9000 sonarqube:lts-community
 ```
 
 - allow the port `9000` for sonarqube. i faced issue in laptop for port `9000` so i used `3456`. in mobile `9000` is worked, not sure why
@@ -291,15 +291,31 @@ sudo chmod +x kubeadm.sh
 - using the config file , we can login to the cluster. from `apiversion upto last`.
 - upload the text file.
 
-<img width="1517" height="635" alt="image" src="https://github.com/user-attachments/assets/aecb4bd5-0081-481b-8b5b-e1208ab132b0" />
+<img width="1918" height="662" alt="image" src="https://github.com/user-attachments/assets/1f06e106-cfc4-44d3-903d-5327884a5af1" />
+
+
+<img width="1917" height="1012" alt="image" src="https://github.com/user-attachments/assets/f28f6ab1-afe6-4885-863d-4d056200752f" />
+
+
+<img width="162" height="201" alt="image" src="https://github.com/user-attachments/assets/a5bc7232-ace9-4fc5-ad30-007746cbc429" />
+
+
+
+<img width="1918" height="855" alt="image" src="https://github.com/user-attachments/assets/8ae7bd97-ff5b-4d45-bca6-d0b0f7e5dd18" />
+
+
+<img width="1918" height="558" alt="image" src="https://github.com/user-attachments/assets/8a70f958-3b71-4d53-8676-57037067eff6" />
+
 
 - pipeline syntax
 
-<img width="1545" height="546" alt="image" src="https://github.com/user-attachments/assets/ed6c0661-d2e6-4253-ba91-29116d423da9" />
+
+<img width="1917" height="663" alt="image" src="https://github.com/user-attachments/assets/aef68799-b3e2-4335-a50c-18294084c461" />
+
 
 - Only `credentialID` is required, remove all other things.
 
-<img width="1053" height="265" alt="image" src="https://github.com/user-attachments/assets/fbe7a1f4-1614-48b1-8c96-a9576a451d77" />
+<img width="1357" height="443" alt="image" src="https://github.com/user-attachments/assets/57812f74-bfbc-4b4a-ba40-8d2cc0799d3e" />
 
-<img width="1600" height="467" alt="image" src="https://github.com/user-attachments/assets/f1e82bba-f6fa-47ad-9860-91faf3fa166f" />
+<img width="1893" height="593" alt="image" src="https://github.com/user-attachments/assets/dea494e9-edc6-4a0c-8956-5c4b1440a399" />
 
