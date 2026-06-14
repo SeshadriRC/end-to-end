@@ -51,6 +51,8 @@ used **t2 large** instance for this activity
 
 [follow this doc](https://github.com/gashok13193/DevOps-Docs/blob/main/MAVEN/maven.md#installing-maven-on-linuxubuntu)
 
+<img width="1080" height="197" alt="image" src="https://github.com/user-attachments/assets/cc750c00-dc93-4be7-bf39-6c970ba81365" />
+
 - Configure the Maven with jenkins, install maven and temurin plugins.
 
 - Jenkins --> tools --> Maven
