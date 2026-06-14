@@ -60,5 +60,14 @@ pipeline {
         }
   }
   
+   stage('Deploy to K8s'){
+       steps{
+           script{
+               withKubeCredentials(kubectlCredentials: [[credentialsId: '03e14534-41a1-43ee-abba-e356b620034c']]) {
+                   sh 'kubectl apply -f k8s/deployment.yaml'
+           }
+           }
+       }
+   }
     }
 }
