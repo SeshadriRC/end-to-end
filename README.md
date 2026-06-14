@@ -75,7 +75,7 @@ used **t2 large** instance for this activity
 ---
 ## Configure the tools in jenkins pipeline
 
-<img width="585" height="126" alt="image" src="https://github.com/user-attachments/assets/ac5b754f-fb6d-4371-bf8e-83448004e5bd" />
+<img width="1918" height="863" alt="image" src="https://github.com/user-attachments/assets/34a56d34-2af7-4bea-9270-1d97327e2221" />
 
 ---
 ## Code compile using Maven
