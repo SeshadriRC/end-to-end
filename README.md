@@ -64,9 +64,8 @@ used **t2 large** instance for this activity
 
 - Jenkins --> tools --> JDK Installations
 
-<img width="1363" height="460" alt="image" src="https://github.com/user-attachments/assets/47d04e1c-99ce-48c2-9920-a807b1eb5379" />
+<img width="1915" height="775" alt="image" src="https://github.com/user-attachments/assets/1cc80f02-a28e-4297-82c9-245c6034ac4b" />
 
-<img width="1526" height="425" alt="image" src="https://github.com/user-attachments/assets/e1d98d7e-6672-492a-afe4-c323ba012e62" />
 
 - Save it
 
