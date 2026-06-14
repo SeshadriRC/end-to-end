@@ -108,39 +108,48 @@ wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.96
 
 sudo apt install unzip
 
+unzip sonarqube-10.7.0.96327.zip
+
 ./sonar.sh start
 ```
 
-- allow the port `9000` for sonarqube.
+- allow the port `9000` for sonarqube. i faced issue in laptop for port `9000` so i used `3456`. in mobile `9000` is worked, not sure why
 
 
 ```bash
 username: admin
 password: admin
+new: sesha123
 ```
 
 - Configure the sonarqube
 
-<img width="1073" height="676" alt="image" src="https://github.com/user-attachments/assets/c2ce04b3-f9b7-492e-a136-49b1527dd340" />
+<img width="1918" height="880" alt="image" src="https://github.com/user-attachments/assets/89fafa37-fd5f-4698-89c6-7c64fbe6b7d6" />
 
-<img width="845" height="468" alt="image" src="https://github.com/user-attachments/assets/e308559c-d6bc-4207-860b-137b368e6ac3" />
+<img width="1818" height="837" alt="image" src="https://github.com/user-attachments/assets/5db7a84e-ee44-4ba0-ae53-ae791eb3ab3b" />
 
 - Select with jenkins
 
-<img width="1363" height="393" alt="image" src="https://github.com/user-attachments/assets/851d55fa-624a-4189-880c-ae57b95b9d41" />
+<img width="1917" height="737" alt="image" src="https://github.com/user-attachments/assets/3b5694f8-39c5-4570-b64e-5aee16539680" />
+
 
 - Select github
 
-<img width="702" height="291" alt="image" src="https://github.com/user-attachments/assets/cac15733-9e0b-4283-b66e-b6acc7453bec" />
+<img width="1887" height="470" alt="image" src="https://github.com/user-attachments/assets/41b1bd64-e16a-4329-bd11-e331d7eb9a04" />
 
 - configure analysis
 
-<img width="333" height="178" alt="image" src="https://github.com/user-attachments/assets/ed98b6f7-6717-45c5-b9a0-5d50a628a491" />
+<img width="1918" height="482" alt="image" src="https://github.com/user-attachments/assets/907d5aea-934c-4098-8b7e-7db91b1ed17b" />
 
-
-<img width="577" height="270" alt="image" src="https://github.com/user-attachments/assets/a37dbee8-f2ff-4425-8aaa-055e8f0b8072" />
 
 - click continue ..., select maven and finish tutorial
+
+<img width="1918" height="707" alt="image" src="https://github.com/user-attachments/assets/60c4a70c-b397-470d-a0a9-4c7361e53e8d" />
+
+<img width="1918" height="792" alt="image" src="https://github.com/user-attachments/assets/229a079b-0c7d-4aaa-b38f-47ecc6add1d6" />
+
+<img width="1918" height="726" alt="image" src="https://github.com/user-attachments/assets/879b37ef-822f-4fa3-8ed2-88eb75d42aef" />
+
 
 - Click security --> generate token
 
@@ -148,15 +157,19 @@ password: admin
 
 - Copy the token and keep it. It is used to authenticate jenkins
   
-<img width="777" height="212" alt="image" src="https://github.com/user-attachments/assets/097b46b2-2023-4d39-b847-9ebcb17bd33f" />
+<img width="1917" height="822" alt="image" src="https://github.com/user-attachments/assets/e916eef3-88be-466e-a303-a0d4bf8458e7" />
+
 
 - Install the plugin `sonarQube scanner`.
 
+  <img width="1918" height="512" alt="image" src="https://github.com/user-attachments/assets/b6fa1f15-1891-46d2-9dd8-bcccb98d337f" />
+
+
 - Create the creds for sonarqube. Manage Jenkins --> Credentials, in secret text we need to paste the token
 
-<img width="1533" height="642" alt="image" src="https://github.com/user-attachments/assets/14032d4a-324c-43f5-be41-99e20fa7fa7a" />
+<img width="1918" height="778" alt="image" src="https://github.com/user-attachments/assets/2906915e-a797-40d8-9494-c1650dfea1c8" />
 
-<img width="1577" height="397" alt="image" src="https://github.com/user-attachments/assets/149fc8cc-f6c0-45ed-9b39-11d31493596e" />
+<img width="1911" height="327" alt="image" src="https://github.com/user-attachments/assets/40c22297-bb71-4bce-8a69-22c36add06da" />
 
 
 - Configure the tools for sonarqube
