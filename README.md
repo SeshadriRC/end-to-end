@@ -96,6 +96,7 @@ sudo apt install maven
 
 ## Install the SonarQube and do Static code analysis
 
+- Below method not worked , so i ran this as a docker container
 [follow-this-doc-go-to-package-step](https://github.com/gashok13193/DevOps-Docs/blob/main/SonarQube/SonarQube.md)
 
 ```bash
@@ -111,6 +112,12 @@ sudo apt install unzip
 unzip sonarqube-10.7.0.96327.zip
 
 ./sonar.sh start
+```
+
+### another method
+
+```bash
+docker run -d --name sonarqube -p 9000:9000 sonarqube:lts-community
 ```
 
 - allow the port `9000` for sonarqube. i faced issue in laptop for port `9000` so i used `3456`. in mobile `9000` is worked, not sure why
@@ -220,13 +227,23 @@ new: sesha123
 [follow this doc for installation](https://github.com/SeshadriRC/DevOps-Docs/blob/main/Docker/Docker.md)
 [official-doc](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
+```bash
+# run below commands, post installation
+
+sudo usermod -aG docker jenkins
+sudo systemctl restart jenkins
+sudo systemctl restart docker
+
+```
+
 - plugins install
 
 <img width="1918" height="852" alt="image" src="https://github.com/user-attachments/assets/c909d318-588b-43f0-9ac4-dcbe9289d299" />
 
-- configure the tools for docker
+- configure the tools for docker, its not required as per chatgpt.
 
-<img width="1908" height="832" alt="image" src="https://github.com/user-attachments/assets/c6c9ced0-44bf-4638-a05b-f41631b8bd46" />
+<img width="1906" height="843" alt="image" src="https://github.com/user-attachments/assets/a8f22d24-428d-443c-8408-3412184c8008" />
+
 
 - configure the creds for docker. i copied PAT from dockerhub --> settings
 
@@ -246,11 +263,17 @@ new: sesha123
 
 - Now build the pipeline and check the docker images
 
-<img width="1571" height="551" alt="image" src="https://github.com/user-attachments/assets/9b6d187e-9a49-4dd4-a183-416fef6fd489" />
+<img width="1913" height="590" alt="image" src="https://github.com/user-attachments/assets/e9111f5e-bc3f-4a02-856b-1c9c9dcb06e6" />
+
+
+<img width="1918" height="580" alt="image" src="https://github.com/user-attachments/assets/9e7dde2e-284c-461b-a790-f0c3d1cab4b0" />
 
 - Push the docker image to docker hub
 
-<img width="1106" height="430" alt="image" src="https://github.com/user-attachments/assets/5ed916eb-67ed-404b-b0cb-e1007508f946" />
+<img width="1877" height="641" alt="image" src="https://github.com/user-attachments/assets/a51ca10e-b6ee-45ca-9a3f-c9ccb9c2c605" />
+
+<img width="1918" height="822" alt="image" src="https://github.com/user-attachments/assets/c7e3ed4f-73be-4987-a9f7-7614c571e56e" />
+
 
 
 ---
