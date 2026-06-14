@@ -1,0 +1,64 @@
+pipeline {
+    agent any
+    
+    tools{
+        jdk 'jdk'
+        maven 'maven3'
+    }
+    environment{
+        SCANNER_HOME= tool 'sonar-scanner'
+    }
+
+    stages {
+        stage('Git Checkout') {
+            steps {
+                git 'https://github.com/SeshadriRC/end-to-end.git'
+            }
+        }
+        
+        stage('Code Compile') {
+            steps {
+                sh 'mvn clean compile'
+            }
+        }
+        
+        stage('SonarQube Analysis'){
+            steps{
+                withSonarQubeEnv('SonarQube'){
+                    sh """$SCANNER_HOME/bin/sonar-scanner -Dsonar.projectKey=new \
+                    -Dsonar.java.binaries=. \
+                    -Dsonar.projectKey=new"""
+                }
+            }
+        }
+        
+        stage('Code Build') {
+           steps{
+               sh "mvn clean install"
+           }
+     }
+      stage('Docker Build') {
+           steps{
+               script{
+                   withDockerRegistry(credentialsId: 'f239455a-2d14-4e86-aeaa-db90afa73056', toolName: 'docker'){
+                       sh "docker build -t cicd ."
+                   }
+               }
+               
+           }
+     }
+     stage('Docker Image Push'){
+        steps{
+            script{
+                   withDockerRegistry(credentialsId: 'f239455a-2d14-4e86-aeaa-db90afa73056', toolName: 'docker'){
+                       sh "docker tag cicd sesharc/end-to-end:$BUILD_ID"
+                       sh "docker push sesharc/end-to-end:$BUILD_ID"
+            
+         
+     }
+            }
+        }
+  }
+  
+    }
+}
