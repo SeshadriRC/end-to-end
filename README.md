@@ -191,24 +191,26 @@ new: sesha123
 
 - Now build the pipeline , it should get successful
 
-<img width="1577" height="647" alt="image" src="https://github.com/user-attachments/assets/eff61124-68a3-4ac3-a3c6-8ddedbc10d84" />
+<img width="1831" height="521" alt="image" src="https://github.com/user-attachments/assets/875cf713-f9b8-4256-942b-019415cc5424" />
 
-<img width="1550" height="446" alt="image" src="https://github.com/user-attachments/assets/64b23c13-780e-40aa-97cc-d866b7cff6cc" />
+<img width="1918" height="563" alt="image" src="https://github.com/user-attachments/assets/2af937d2-79b7-4acd-a0eb-d65500628e15" />
+
 
 ---
 
 ## Code Build using Maven
 
 
-<img width="985" height="186" alt="image" src="https://github.com/user-attachments/assets/6bf78413-7f93-4f12-82bd-eeca526e91d2" />
+<img width="1336" height="405" alt="image" src="https://github.com/user-attachments/assets/58f1b318-b699-478b-b894-49f897a77a7e" />
+
 
 - Once the codebuild completes successfully, we can see the files created under workspaces directory.
 
-<img width="1567" height="625" alt="image" src="https://github.com/user-attachments/assets/852cd4a0-d151-4ea1-aa31-45f9574f63aa" />
+<img width="1915" height="502" alt="image" src="https://github.com/user-attachments/assets/976ba7fa-bfbf-4f94-acd6-a560b1850408" />
 
 - we can see the `.jar` file.
 
-<img width="1703" height="586" alt="image" src="https://github.com/user-attachments/assets/7b84d93d-d494-4ba4-87e9-d695dd35fa30" />
+<img width="1917" height="576" alt="image" src="https://github.com/user-attachments/assets/5bd4af2f-c6fc-40d9-b7e3-bd4423818bc2" />
 
 
 ---
@@ -216,24 +218,31 @@ new: sesha123
 ## Install the docker
 
 [follow this doc for installation](https://github.com/SeshadriRC/DevOps-Docs/blob/main/Docker/Docker.md)
+[official-doc](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
 
 - plugins install
 
-<img width="1150" height="587" alt="image" src="https://github.com/user-attachments/assets/482e097a-fda2-42df-b5a7-06503e3de49d" />
+<img width="1918" height="852" alt="image" src="https://github.com/user-attachments/assets/c909d318-588b-43f0-9ac4-dcbe9289d299" />
 
 - configure the tools for docker
 
-<img width="1533" height="561" alt="image" src="https://github.com/user-attachments/assets/1c6d8565-f3cd-4f2e-ae67-91e010015461" />
+<img width="1908" height="832" alt="image" src="https://github.com/user-attachments/assets/c6c9ced0-44bf-4638-a05b-f41631b8bd46" />
 
-- configure the creds for docker
+- configure the creds for docker. i copied PAT from dockerhub --> settings
 
-<img width="1571" height="648" alt="image" src="https://github.com/user-attachments/assets/ce1e9add-069d-4bb1-a635-89f6218cc589" />
+<img width="1918" height="892" alt="image" src="https://github.com/user-attachments/assets/da199587-0207-455d-a1a0-324a4307f1f7" />
+
+<img width="1913" height="437" alt="image" src="https://github.com/user-attachments/assets/3e4e3c62-e0ae-47a9-91cb-6e9c61846929" />
 
 - pipeline syntax
 
-<img width="1602" height="707" alt="image" src="https://github.com/user-attachments/assets/4700fed2-557f-4358-ae1b-7830f37a6d51" />
+    - By default it will take url as `docker.io`
+      
+<img width="1917" height="831" alt="image" src="https://github.com/user-attachments/assets/9b36d290-1078-458e-afd3-e76956f62aff" />
 
-<img width="957" height="207" alt="image" src="https://github.com/user-attachments/assets/1c212fb4-04e5-44a0-ab61-ad7180ae27da" />
+
+<img width="1423" height="412" alt="image" src="https://github.com/user-attachments/assets/256bc63e-5c86-4303-8557-16f6235ea69b" />
+
 
 - Now build the pipeline and check the docker images
 
