@@ -80,7 +80,8 @@ used **t2 large** instance for this activity
 ---
 ## Code compile using Maven
 
-<img width="1487" height="665" alt="image" src="https://github.com/user-attachments/assets/66caa979-8b00-4660-8d63-dcefd01c001b" />
+<img width="1318" height="450" alt="image" src="https://github.com/user-attachments/assets/37fc268f-2fde-4c4f-9b90-e7cf6eacac9f" />
+
 
 - Now build and test it
 
