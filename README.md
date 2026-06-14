@@ -23,6 +23,11 @@ used **t2 large** instance for this activity
 
 [follow this doc](https://github.com/gashok13193/DevOps-Docs/blob/main/Jenkins/Jenkins%20Setup.md)
 
+- Below is the latest version
+
+<img width="1830" height="1002" alt="image" src="https://github.com/user-attachments/assets/35690ef8-7827-498c-b5b1-10eaca61b4fb" />
+
+
 - Allow the port for jenkins `8080`
 
 - Test the git checkout functionality by creating a pipeline
