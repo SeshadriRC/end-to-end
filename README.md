@@ -60,7 +60,10 @@ used **t2 large** instance for this activity
 
 - Jenkins --> tools --> Maven
 
-<img width="1317" height="497" alt="image" src="https://github.com/user-attachments/assets/dc0a285f-546d-4dee-9b0d-e7af19c4ad96" />
+<img width="1917" height="953" alt="image" src="https://github.com/user-attachments/assets/f9c61eb2-a858-4933-aa84-c90b25da3724" />
+
+<img width="1062" height="192" alt="image" src="https://github.com/user-attachments/assets/c7cd2198-f1a5-4127-a259-5f5721e54f63" />
+
 
 - Jenkins --> tools --> JDK Installations
 
