@@ -53,6 +53,11 @@ used **t2 large** instance for this activity
 
 <img width="1080" height="197" alt="image" src="https://github.com/user-attachments/assets/cc750c00-dc93-4be7-bf39-6c970ba81365" />
 
+
+```bash
+sudo apt install maven
+```
+
 - Configure the Maven with jenkins, install maven and temurin plugins.
 
   <img width="1917" height="668" alt="image" src="https://github.com/user-attachments/assets/854999f3-2925-4449-9cf6-56606b5f54e5" />
@@ -80,12 +85,12 @@ used **t2 large** instance for this activity
 ---
 ## Code compile using Maven
 
-<img width="1318" height="450" alt="image" src="https://github.com/user-attachments/assets/37fc268f-2fde-4c4f-9b90-e7cf6eacac9f" />
+<img width="1282" height="373" alt="image" src="https://github.com/user-attachments/assets/6e63245b-ce58-4f1a-aeca-c83b70e7734b" />
 
 
 - Now build and test it
 
-<img width="1566" height="576" alt="image" src="https://github.com/user-attachments/assets/500a4605-3d37-4acf-b09a-fa7fcf1f6be0" />
+<img width="1918" height="581" alt="image" src="https://github.com/user-attachments/assets/e96380dd-44c8-4408-8a74-1b13f92446fc" />
 
 ---
 
@@ -94,7 +99,15 @@ used **t2 large** instance for this activity
 [follow-this-doc-go-to-package-step](https://github.com/gashok13193/DevOps-Docs/blob/main/SonarQube/SonarQube.md)
 
 ```bash
+curl -s https://www.sonarsource.com/products/sonarqube/downloads/historical-downloads/ \
+| grep -oE 'sonarqube-[0-9.]+\.zip'
+
+wget --spider https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.96327.zip
+
+wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-10.7.0.96327.zip
+
 sudo apt install unzip
+
 ./sonar.sh start
 ```
 
