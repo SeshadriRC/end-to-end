@@ -174,19 +174,20 @@ new: sesha123
 
 - Configure the tools for sonarqube
 
-<img width="1440" height="407" alt="image" src="https://github.com/user-attachments/assets/5467b968-ef8a-4297-bdd0-4b1e830068a3" />
+<img width="1918" height="860" alt="image" src="https://github.com/user-attachments/assets/d9c53158-1f87-486d-914e-594e47a88d2f" />
 
-<img width="1217" height="617" alt="image" src="https://github.com/user-attachments/assets/f67c1630-1739-48c2-b547-cf77d983051b" />
 
 - Add the server for sonarqube
 
-<img width="1438" height="630" alt="image" src="https://github.com/user-attachments/assets/e018b7e2-adf8-44a5-bfbd-3979b64de5f4" />
+<img width="1915" height="867" alt="image" src="https://github.com/user-attachments/assets/7ace0c03-f8d6-4ef7-a5ac-1bac78fb57e3" />
+
 
 - Now configure the pipeline for sonarqube, but in tools section we can't able to add sonarqube. so we need to add it as `env` option.
 
-<img width="701" height="227" alt="image" src="https://github.com/user-attachments/assets/70dd5330-e75b-42e2-983d-06e7c147e7cc" />
+<img width="1907" height="517" alt="image" src="https://github.com/user-attachments/assets/fc769832-ccaa-47e9-aea7-01646ef5418d" />
 
-<img width="1012" height="240" alt="image" src="https://github.com/user-attachments/assets/c3eb9b6d-c9fa-4b93-a6d0-18bc9aed6d5b" />
+<img width="1113" height="307" alt="image" src="https://github.com/user-attachments/assets/01000cc9-d662-466f-8d21-74fe3df06ca6" />
+
 
 - Now build the pipeline , it should get successful
 
